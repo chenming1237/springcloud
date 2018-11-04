@@ -8,5 +8,6 @@ public class UserServiceImpl implements UserService {
     @Override
     public void getUser() {
         System.out.println("输出");
+        System.out.println("ssss");
     }
 }
