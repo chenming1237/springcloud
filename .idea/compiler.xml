@@ -6,6 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo (1)" />
+        <module name="demo (2)" />
+        <module name="demo (3)" />
+        <module name="demo (4)" />
         <module name="springcloud" />
         <module name="springcloud_eureka_comsume" />
         <module name="springcloud_eureka_producer1" />
@@ -13,5 +17,11 @@
         <module name="springcloud_eureka_server" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud_eureka_comsume" target="1.8" />
+      <module name="springcloud_eureka_producer1" target="1.8" />
+      <module name="springcloud_eureka_producer2" target="1.8" />
+      <module name="springcloud_eureka_server" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
